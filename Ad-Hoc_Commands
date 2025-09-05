@@ -1,0 +1,13 @@
+Syntax:
+ansible <hosts> -m <module_name> -a <"arguments"> -u <username> -k(will ask for password) --become -K(will ask for root password)
+
+Modules:
+  - command  https://docs.ansible.com/ansible/latest/command_guide/intro_adhoc.html
+  - shell    https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html
+  - raw      https://docs.ansible.com/ansible/latest/collections/ansible/builtin/raw_module.html
+  - setup    https://docs.ansible.com/ansible/latest/collections/ansible/builtin/setup_module.html
+  - file     https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html
+  - copy     https://docs.ansible.com/ansible/latest/collections/ansible/builtin/copy_module.html
+  - apt      https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html
+  - user     https://docs.ansible.com/ansible/latest/collections/ansible/builtin/user_module.html
+  - service  https://docs.ansible.com/ansible/latest/collections/ansible/builtin/service_module.html
