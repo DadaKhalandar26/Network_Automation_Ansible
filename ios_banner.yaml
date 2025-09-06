@@ -19,7 +19,7 @@
           *                                                                             *
           *******************************************************************************
         state: present
-         register: output
+        register: output
 
     - name: Printing at the console
       debug: var=output
