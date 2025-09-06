@@ -1,6 +1,6 @@
 ---
 - name: Configuring banner on Cisco IOS Devices
-  gather_facts: no
+  gather_facts: false
   hosts: routers
   connection: network_cli
 
