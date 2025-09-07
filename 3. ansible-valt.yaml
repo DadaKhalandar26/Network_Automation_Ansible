@@ -1,14 +1,14 @@
-# Cisco IOS Routers passwords
-routers_users= Cisco
-routers_ssh_pass= Cisco123
-routers_become_pass= Cisco123
+1 routers_users= Cisco
+2 routers_ssh_pass= Cisco123
+3 routers_become_pass= Cisco123
+4 arista_users= arista
+5 arista_ssh_pass= arista123
+6 arista_become_pass= arista123
+7 servers_users= user
+8 servers_ssh_pass= user123
+9 servers_become_pass= user123
 
-# Arista EOS Devcie passwords
-arista_users= arista
-arista_ssh_pass= arista123
-arista_become_pass= arista123
-
-# Linux server passwords
-servers_users= user
-servers_ssh_pass= user123
-servers_become_pass= user123
+# Commands to created Vault
+# vim ansible-vault create Ansible-vault.yaml
+# New Vault password:Cisco123
+# Confirm New Vault password:Cisco123
