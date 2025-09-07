@@ -9,3 +9,4 @@ The following variables control how Ansible interacts with remote hosts.
 • ansible_become_user - equivalent to ansible_sudo_user or ansible_su_user, set the user you become through privilege escalation
 • ansible_become_pass - equivalent to ansible_sudo_pass or ansible_su_pass you to set the privilege escalation password
 • ansible_network_os - new in Ansible 2.5, used with network_cli of netconf
+• ansible_interpater_
