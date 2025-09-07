@@ -1,0 +1,14 @@
+# Cisco IOS Routers passwords
+routers_users= Cisco
+routers_ssh_pass= Cisco123
+routers_become_pass= Cisco123
+
+# Arista EOS Devcie passwords
+arista_users= arista
+arista_ssh_pass= arista123
+arista_become_pass= arista123
+
+# Linux server passwords
+servers_users= user
+servers_ssh_pass= user123
+servers_become_pass= user123
