@@ -4,7 +4,7 @@ RO12 ansible_host=192.168.1.100
 RO3 ansible_host=192.168.1.101
 RO4 ansible_host=192.168.1.102
 RO5 ansible_host=192.168.1.103
-RO5 ansible_host=192.168.1.104
+RO6 ansible_host=192.168.1.104
 RO_7200 ansible_host=192.168.1.150
 
 [routers:vars]
