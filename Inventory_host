@@ -1,1 +1,43 @@
+[routers]
+RO12 ansible_host=192.168.1.100
+RO3 ansible_host=192.168.1.101
+RO4 ansible_host=192.168.1.102
+RO5 ansible_host=192.168.1.103
+RO5 ansible_host=192.168.1.104
+RO_7200 ansible_host=192.168.1.150
 
+[routers:vars]
+ansible_network_os=ios
+ansible_port=22
+ansible_user= "{{ routers_users }}"
+ansible_ssh_pass= "{{ routers_ssh_pass }}"
+ansible_become= yes
+ansible_become_method= enable
+ansible_become_pass= "{{ routers_become_pass }}"
+ansible_python_interpreter=/usr/bin/python
+
+[arista]
+arista1 ansible_host=192.168.4.100
+arista2 ansible_host=192.168.4.101
+
+[arista:vars]
+ansible_network_os=eos
+ansible_port=22
+ansible_user= "{{ arista_users }}"
+ansible_ssh_pass= "{{ arista_ssh_pass }}"
+ansible_become= yes
+ansible_become_method= enable
+ansible_become_pass= "{{ arista_become_pass }}"
+
+[servers]
+server1 ansible_host=192.168.2.100
+server2 ansible_host=192.168.2.101
+server3 ansible_host=192.168.2.102
+
+[servers:vars]
+ansible_port=22
+ansible_user= "{{ servers_users }}"
+ansible_ssh_pass= "{{ servers_ssh_pass }}"
+ansible_become= yes
+ansible_become_method= sudo
+ansible_become_pass= "{{ servers_become_pass }}"
