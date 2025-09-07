@@ -1,12 +1,9 @@
-1 routers_users= Cisco
-2 routers_ssh_pass= Cisco123
-3 routers_become_pass= Cisco123
-4 arista_users= arista
-5 arista_ssh_pass= arista123
-6 arista_become_pass= arista123
-7 servers_users= user
-8 servers_ssh_pass= user123
-9 servers_become_pass= user123
+1 routers_ssh_pass: Cisco123
+2 routers_become_pass: Cisco123
+3 arista_ssh_pass: arista123
+4 arista_become_pass: arista123
+5 servers_ssh_pass: user123
+6 servers_become_pass: user123
 
 # Commands to created Vault
 # vim ansible-vault create Ansible-vault.yaml
